@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registpage">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="743dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginTop="-295dp"
+        app:srcCompat="@drawable/regist" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-115dp"
+        app:srcCompat="@drawable/circle1"
+        tools:layout_editor_absoluteX="-70dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="269dp"
+        android:layout_height="483dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="141dp"
+        android:background="@drawable/backgroundlong"
+        android:backgroundTint="#E0E0E0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="258dp"
+        android:layout_height="483dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="145dp"
+        app:srcCompat="@drawable/backgroundlong" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="289dp"
+        app:srcCompat="@drawable/fill" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="351dp"
+        app:srcCompat="@drawable/fill" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="626dp"
+        android:fontFamily="@font/ramabhadraregular"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="569dp"
+        android:fontFamily="@font/ramabhadraregular"
+        android:text="Sign Up with"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="467dp"
+        android:fontFamily="@font/ramabhadraregular"
+        android:text="Or"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="411dp"
+        app:srcCompat="@drawable/fill" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="247dp"
+        android:fontFamily="@font/ramabhadraregular"
+        android:text="Forgot password?"
+        android:textColor="#3E7FBB"
+        android:textSize="12dp" />
+
+    <ImageButton
+        android:id="@+id/registbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="180dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="signup"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/submitsignupbtn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="187dp"
+        android:fontFamily="@font/ramabhadraregular"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="419dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/yesevaoneregular"
+        android:hint="Username"
+        android:textColorHint="#786C6C" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="360dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/yesevaoneregular"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#786C6C" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="298dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/yesevaoneregular"
+        android:hint="Password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textColorHint="#786C6C" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="508dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/fill2" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="516dp"
+        app:srcCompat="@drawable/googleicon" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="518dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Google"
+        android:textColor="#786C6C"
+        android:textSize="16dp" />
+
+</RelativeLayout>

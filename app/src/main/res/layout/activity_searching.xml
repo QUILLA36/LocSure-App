@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53AEC2"
+    tools:context=".searching">
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="518dp"
+        android:layout_height="543dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-107dp"
+        android:layout_marginBottom="-24dp"
+        app:srcCompat="@drawable/searchingbg" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="487dp"
+        app:srcCompat="@drawable/searchcrc" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="414dp"
+        android:layout_height="346dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-59dp"
+        android:layout_marginEnd="-3dp"
+        app:srcCompat="@drawable/searchbg2" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="314dp"
+        android:layout_height="270dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="467dp"
+        app:srcCompat="@drawable/searchhis" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="663dp"
+        app:srcCompat="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="609dp"
+        app:srcCompat="@drawable/iconsearch2_" />
+
+    <SearchView
+        android:layout_width="358dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="700dp"
+        android:background="@drawable/serchbar" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="819dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/menu2" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="58dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="815dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/profil2" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="653dp"
+        app:srcCompat="@drawable/iconsearch2_" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="617dp"
+        app:srcCompat="@drawable/up" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="655dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Borobudur"
+        android:textColor="#838785"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="611dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Komodo National Park"
+        android:textColor="#838785"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="-22dp"
+        app:srcCompat="@drawable/navigation" />
+
+    <ImageButton
+        android:id="@+id/imageView36"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="19dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="homepage"
+        app:srcCompat="@drawable/homebtn" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Home"
+        android:textColor="#616161"
+        android:textSize="12dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="eventbtn"
+        app:srcCompat="@drawable/navevent" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="walletbtn"
+        app:srcCompat="@drawable/wallet" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="21dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="calendarbtn"
+        app:srcCompat="@drawable/calendar" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="16dp"
+        android:text="Event"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="17dp"
+        android:text="Calendar"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        android:text="Payment"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+</RelativeLayout>
